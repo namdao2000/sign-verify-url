@@ -1,7 +1,7 @@
 {
   "name": "sign-verify-url",
   "version": "1.0.0",
-  "description": "Sign and verify urls using serverless cloudflare workers",
+  "description": "Sign and verify urls using serverless Cloudflare Workers",
   "main": "dist/worker.js",
   "scripts": {
     "build": "webpack",
@@ -10,8 +10,8 @@
     "test": "jest --config jestconfig.json --verbose",
     "dev": "miniflare --live-reload dist/worker.js"
   },
-  "author": "author",
-  "license": "MIT OR Apache-2.0",
+  "author": "Nam Dao",
+  "license": "MIT",
   "eslintConfig": {
     "root": true,
     "extends": [

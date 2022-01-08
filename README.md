@@ -2,15 +2,15 @@
 This is a demo for building endpoints that can sign and verify a url request using HMAC and SHA-256 Algorithms. 
 Powered by [Worktop's Router](https://github.com/lukeed/worktop) and the cryptographic interface [Web Crypto](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).
 
-Built using this [example shown](https://developers.cloudflare.com/workers/examples/signing-requests) on Cloudflare Docs.
+Built using this [example doc](https://developers.cloudflare.com/workers/examples/signing-requests) on Cloudflare Docs.
 
 ## Endpoints
 
-#### GET /sign/:url
+#### GET /sign/:unsignedUrl
 Takes in a url parameter and returns a signed version of the URL, ready to be verified by the `/verify` end point.
 Expiry time is configurable.
 
-#### GET /verify/:url
+#### GET /verify/:signedUrl
 Takes in a signed url parameter and verifies its signature and expiry date.
 
 ## Running in development
