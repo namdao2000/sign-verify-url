@@ -2,7 +2,7 @@
 This is a demo for building endpoints that can sign and verify a url request using HMAC and SHA-256 Algorithms. 
 Powered by [Worktop's Router](https://github.com/lukeed/worktop) and the cryptographic interface [Web Crypto](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).
 
-Built using this [example doc](https://developers.cloudflare.com/workers/examples/signing-requests) on Cloudflare Docs.
+Built using this [example](https://developers.cloudflare.com/workers/examples/signing-requests) on Cloudflare Docs.
 
 ## Endpoints
 
