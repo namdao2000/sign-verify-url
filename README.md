@@ -30,4 +30,4 @@ Takes in a signed url parameter and verifies its signature and expiry date.
 4. Run `wrangler secret put SECRET_KEY` and type in your secret key
 5. Run `wrangler publish`
 
-#### [MIT LICENSE](https://github.com/namdao2000/sign-verify-url/blob/master/LICENSE)
+#### [MIT LICENSE](LICENSE)
